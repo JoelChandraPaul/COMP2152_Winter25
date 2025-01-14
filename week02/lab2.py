@@ -16,3 +16,7 @@ def get_valid_input(prompt):
         except ValueError:
             print("Error: Please enter a valid integer!")
             continue
+try:
+    elements_selected = elements[get_valid_input(prompt="Select elements: ")
+except Exception as e:
+    print("Error: Please enter a valid integer!")
